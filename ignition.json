@@ -10,7 +10,7 @@
     "users": [
       {
         "groups": [
-          "sudo"
+          "sudo",
           "docker"
         ],
         "name": "test",
