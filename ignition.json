@@ -1,0 +1,21 @@
+{
+  "ignition": {
+    "version": "2.0.0",
+    "config": {}
+  },
+  "storage": {},
+  "systemd": {},
+  "networkd": {},
+  "passwd": {
+    "users": [
+      {
+        "groups": [
+          "sudo"
+          "docker"
+        ],
+        "name": "test",
+        "passwordHash": "$1$IYXURWA6$i9mX.gs4mRofk.6Pf1AkL0"
+      }
+    ]
+  }
+}
