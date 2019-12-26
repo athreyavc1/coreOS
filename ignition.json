@@ -5,7 +5,14 @@
   },
   "storage": {},
   "systemd": {},
-  "networkd": {},
+  "networkd": {
+    "units": [
+      {
+        "contents": "[Match]\nName=enps03\n\n[Network]\nDNS=192.168.1.254\nAddress=192.168.1.31/24\nGateway=192.168.1.254",
+        "name": "00-enp0s3.network"
+      }
+    ]
+  },
   "passwd": {
     "users": [
       {
