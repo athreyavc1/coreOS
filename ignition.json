@@ -3,7 +3,14 @@
     "version": "2.0.0",
     "config": {}
   },
-  "storage": {},
+  "storage": {
+    "files": [{
+      "path": "/etc/hostname",
+      "mode": 420,
+      "overwrite": true,
+      "contents": { "source": "data:,core1" }
+    }]
+  },
   "systemd": {},
   "networkd": {
     "units": [
