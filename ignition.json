@@ -9,12 +9,15 @@
   "passwd": {
     "users": [
       {
-        "groups": [
+        "name": "test",
+        "passwordHash": "$1$IYXURWA6$i9mX.gs4mRofk.6Pf1AkL0",
+        "create": {
+          "groups": [
           "sudo",
           "docker"
         ],
-        "name": "test",
-        "passwordHash": "$1$IYXURWA6$i9mX.gs4mRofk.6Pf1AkL0"
+        "shell": "/bin/bash"
+        }
       }
     ]
   }
