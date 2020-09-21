@@ -30,7 +30,7 @@
         "users": [
           {
             "name": "core",
-            "passwordHash": "$superSecretPasswordHash.",
+            "passwordHash": "$1$pq2/uHJY$xsqvSHBozDLUrprFBVrGr0",
             "sshAuthorizedKeys": [
               "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5ULfreCHcKEFS54PKVs+qSvQZCtrVF7YEeD7f1oI2AgBAX7lSr/XPvTph5a53G/F/Hy3WC3CeQSFTkcrz8X3dVJFSy1K08rrtfpessiYng8q6UdZjeiMiAM+2mFzhEFREtrFm7sBwlZWeaEjgjj+C9FnuGV3PJ1KRHj98zzEwDlgjvl9X/s1q7JGyftHE+XSZhDh0LljUc+p3BMqLsml9XDF94SUj2rNLVX4nh6os//6UCqlgwQVfW7cgm3Egq4zMX9C9LGfCi8yTVMSv3Ud0EjthHqVMaFhP+bfaUkuZI8Fz9HrzNd9aXZ48O5ZeGibNq/cmc6XRPOO4CEdXthrF root@vagrant"
             ]
