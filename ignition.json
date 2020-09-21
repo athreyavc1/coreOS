@@ -37,6 +37,10 @@
           },
 
         ]
-      }
+      },
+      "networkd":{
+          "name": "00-ens33-network",
+          "contents": "[Match]\nName=ens33\n\n[Network]\nAddress=192.168.1.84/24\nGateway=192.168.1.254\nDNS=192.168.1.254\nDomains=homelab.org"
+        }
     }
 
